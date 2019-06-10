@@ -1,0 +1,93 @@
+.ilp {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  &__icon {
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 750px;
+    width: 20px;
+    height: 25px;
+    color: #ffffff;
+    float: left;
+  }
+  &__span {
+    display: table;
+    position: relative;
+    margin: auto;
+    margin-top: 12px;
+    margin-left: 775px;
+    color: #ffffff;
+    font-size: 12px;
+    white-space: nowrap;
+    position: absolute;
+  }
+}
+
+.section10 {
+  background: url("/static/img/bkgd-mobile-app-ad_m_1500.png") no-repeat righttop;
+  min-height: 500px;
+  padding-right: 0;
+  padding-left: 0;
+  &__content {
+    position: absolute;
+    z-index: 1;
+    max-width: 450px;
+    margin-right: auto;
+  }
+  &__heading {
+    font-family: "Open Sans";
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 110%;
+  }
+  &__txt {
+    font-family: "Open Sans";
+    font-size: 0.8rem;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+  }
+  &__app_links {
+    margin-top: 50px;
+    &__link {
+      margin-right: 20px;
+    }
+  }
+  &__logo {
+    position: absolute;
+    top: 150px;
+    right: 640px;
+    width: 150px;
+    z-index: 0;
+  }
+  &__iphone {
+    position: absolute;
+    width: 600px;
+    top: 0;
+    right: 0;
+    z-index: 0;
+  }
+  &__app_button {
+    color: #e26811;
+    font-size: 0.875rem;
+    font-weight: 700;
+  }
+  &__join_button {
+    border-style: none;
+    border-radius: 0;
+    background-color: #e26811;
+    border: none;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 700;
+    width: 300px;
+    height: 40px;
+    box-shadow: 1px 1px 3px #999;
+    &:hover,
+    &:focus {
+      background-color: #d16011;
+    }
+  }
+}
