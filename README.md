@@ -2,5 +2,5 @@
 
 ## Examples of Code
 
-[BEM and SASS](./sass-example.scss)
-[Vanilla Javascript](./javascript-example.js)
+- [BEM and SASS](./sass-example.scss)
+- [Vanilla Javascript](./javascript-example.js)
