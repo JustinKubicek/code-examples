@@ -1,6 +1,6 @@
 # code-examples
 
-Here are some examples of Code
+## Examples of Code
 
-[BEM and SASS](sass-example.scss)
-[Vanilla Javascript](javascript-example.js)
+[BEM and SASS](./sass-example.scss)
+[Vanilla Javascript](./javascript-example.js)
